@@ -1,0 +1,37 @@
+{
+  "name": "postcss-background-offsets",
+  "version": "0.0.0",
+  "description": "PostCSS plugin to increase brower support for css background position edge offset by using calc.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "background-position",
+    "offset",
+    "edge offset",
+    "calc",
+    "fallback",
+    "polyfill"
+  ],
+  "author": "Matthias Müller <MattDiMu@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": "MattDiMu/postcss-background-offsets",
+  "bugs": {
+    "url": "https://github.com/MattDiMu/postcss-background-offsets/issues"
+  },
+  "homepage": "https://github.com/MattDiMu/postcss-background-offsets",
+  "dependencies": {
+    "postcss": "^5.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "eslint": "^3.4.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
